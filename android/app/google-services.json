@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "47417779933",
+    "project_id": "my-cloth-app",
+    "storage_bucket": "my-cloth-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47417779933:android:7d77296667de8b294cdd34",
+        "android_client_info": {
+          "package_name": "com.example.cloth_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47417779933-eec11dnjoafklka11ld3i5p8dh75jvcg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cloth_app",
+            "certificate_hash": "57b9a0263078a2dbb7a53694450edb10f12fa952"
+          }
+        },
+        {
+          "client_id": "47417779933-imaja0kgjq88rl3vffailsvm51av05tg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_SeSHkJn6CJYEIuQcaznnzCh7id_0KFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47417779933-imaja0kgjq88rl3vffailsvm51av05tg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "47417779933-m0e40uhh67lvhq5vqqkfgshjnf5q6f55.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.clothApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

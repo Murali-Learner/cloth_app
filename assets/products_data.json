@@ -1,0 +1,555 @@
+{
+
+
+
+	"all_products": [
+	  {
+		"id": "1",
+        "title":"Solid Men Polo Neck Green T-Shirt",
+		"url": "https://rukminim1.flixcart.com/image/832/832/kmax8y80/t-shirt/e/t/x/l-12905294-roadster-original-imagf87hceh2gutn.jpeg?q=70",
+		"brand": "Roadstar",
+        "discount":"10%",
+		"size": ["S","M","L"],
+		"is_liked": false,
+		"price": "₹364"
+	}, {
+		"id": "2",
+        "title":"Solid Men Polo Neck Green T-Shirt",
+
+		"url": "https://rukminim1.flixcart.com/image/832/832/k66sh3k0/t-shirt/t/4/s/l-10307375-roadster-original-imafzhfjksbg4ufc.jpeg?q=70",
+		"brand": "Roadstar",
+        "discount":"20%",
+		"size": ["S"] ,
+		"is_liked": false,
+		"price": "₹391"
+	}, {
+		"id": "3",
+        "title":"Solid Men Polo Neck Green T-Shirt",
+
+		"url": "https://rukminim1.flixcart.com/image/612/612/k8ddoy80/t-shirt/x/u/g/xl-10943374-roadster-original-imafqej5mzfqjxjk.jpeg?q=70",
+		"brand": "Roadstar",
+        "discount":"30%",
+
+		"size":["S","M","L"],
+		"is_liked": false,
+		"price": "₹311"
+	},
+     {
+		"id": "4",
+        "title":"Solid Men Polo Neck Black T-Shirt",
+
+        "url":"https://rukminim1.flixcart.com/image/832/832/kkoc70w0/t-shirt/c/f/g/xl-12117146-roadster-original-imafzyr7dvhzshdz.jpeg?q=70",
+		"brand": "Roadstar",
+        "discount":"40%",
+
+		"size": ["S","M","L","XL"],
+		"is_liked": false,
+		"price": "₹391"
+	} ,{
+		"id": "5",
+        "title":"Printed Men Round Neck Green T-Shirt",
+
+        "url":"https://rukminim1.flixcart.com/image/832/832/k8ddoy80/t-shirt/j/6/e/xl-10943350-roadster-original-imafqej9k5rcaysh.jpeg?q=70",
+		"brand": "Roadstar",
+        "discount":"40%",
+
+		"size":[ "M"],
+		"is_liked": false,
+		"price": "₹223"
+	},{
+		"id": "6",
+        "title":"Striped Men Round Neck Dark Blue T-Shirt",
+		"url": "https://rukminim1.flixcart.com/image/832/832/kohigsw0/t-shirt/g/e/j/xl-12907368-roadster-original-imag2xghkr52xhqg.jpeg?q=70",
+		"brand": "Roadstar",
+        "discount":"50%",
+
+		"size": ["S","M","L","XL"],
+		"is_liked": false,
+		"price": "₹279"
+	}, {
+		"id": "7",
+        "title":"Striped Men Round Neck Brown, Blue T-Shirt",
+		"url": "https://rukminim1.flixcart.com/image/832/832/jsc3ssw0/t-shirt/6/7/f/xl-2318579-roadster-original-imafdwhdxzska7qz.jpeg?q=70",
+		"brand": "Roadstar",
+        "discount":"40%",
+
+		"size":  ["S","M","L","XL"],
+		"is_liked": false,
+		"price": "₹279"
+	}, {
+		"id": "8",
+        "title":"Printed Men Round Neck Blue T-Shirt",
+
+		"url": "https://rukminim1.flixcart.com/image/832/832/jvfk58w0/t-shirt/f/e/5/s-farrah-02-roadster-original-imafgcf56hhny3kb.jpeg?q=70",
+		"brand": "Roadstar",
+        "discount":"20%",
+
+		"size":["S","M","L","XL"],
+		"is_liked": false,
+		"price": "₹279"
+	},
+     {
+		"id": "9",
+        "title":"Solid Men Round Neck White T-Shirt",
+
+        "url":"https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/k/c/4/-original-imaghhfh25n9jvsd.jpeg?q=70",
+		"brand": "Roadstar",
+        "discount":"20%",
+
+		"size": ["S","M","L","XL"],
+		"is_liked": false,
+		"price": "₹167"
+	} ,{
+		"id": "10",
+        "title":"Color Block Men Polo Neck Yellow T-Shirt",
+
+        "url":"https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/u/k/e/s-2304056-roadster-original-imafgmre6hcbgajx-bb.jpeg?q=70",
+		"brand": "Roadstar",
+        "discount":"50%",
+
+		"size":["S","M","L","XL"],
+		"is_liked": false,
+		"price": "₹311"
+	},
+
+	  {
+		"id": "11",
+        "title":"Graphic Print Men Round Neck Black T-Shirt",
+		"url": "https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/y/q/b/m-67504801-puma-original-imaghk9g3yzdsctt.jpeg?q=70",
+		"brand": "Puma",
+        "discount":"10%",
+
+		"size": ["M","L","XL","XXL"],
+		"is_liked": false,
+		"price": "₹439"
+	}, {
+		"id": "12",
+        "title":"Printed Men Round Neck Green T-Shirt",
+
+		"url": "https://rukminim1.flixcart.com/image/832/832/ktd9mkw0/t-shirt/w/0/k/m-67029605-puma-original-imag6q3akdfkhmfh.jpeg?q=70",
+		"brand": "Puma",
+        "discount":"40%",
+
+		"size": ["S"] ,
+		"is_liked": false,
+		"price": "₹391"
+	}, {
+		"id": "13",
+        "title":"SGraphic Print Men Polo Neck Blue T-Shirt",
+
+		"url": "https://rukminim1.flixcart.com/image/832/832/l4pxk7k0/t-shirt/o/8/0/-original-imagfkfmkugn9rtv.jpeg?q=70",
+		"brand": "Puma",
+        "discount":"20%",
+
+		"size": ["S","M","L","XL","XXL"],
+		"is_liked": false,
+		"price": "₹439"
+	},
+     {
+		"id": "14",
+        "title":"Printed Men Round Neck White T-Shirt",
+
+        "url":"https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/z/h/p/m-67504102-puma-original-imaghhzzx8m3cchn.jpeg?q=70",
+		"brand": "Puma",
+        "discount":"50%",
+
+		"size": ["XXL"],
+		"is_liked": false,
+		"price": "₹439"
+	} ,{
+		"id": "15",
+        "title":"Printed Men Round Neck Blue T-Shirt",
+
+        "url":"https://rukminim1.flixcart.com/image/832/832/l3khsi80/t-shirt/f/l/3/m-58666658-puma-original-imagenmy6haczugz.jpeg?q=70",
+		"brand": "Puma",
+        "discount":"30%",
+
+		"size":["S","M","L","XL","XXL"],
+		"is_liked": false,
+		"price": "₹263"
+	},{
+		"id": "16",
+        "title":"Printed Men Round Neck Grey T-Shirt",
+		"url": "https://rukminim1.flixcart.com/image/832/832/km57hjk0/t-shirt/u/n/i/xs-58666603-puma-original-imagf3vfnfhwggha.jpeg?q=70",
+		"brand": "Puma",
+        "discount":"30%",
+
+		"size": ["S","M","L","XL"],
+		"is_liked": false,
+		"price": "₹351"
+	}, {
+		"id": "17",
+        "title":"Solid Men Polo Neck Blue T-Shirt",
+		"url": "https://rukminim1.flixcart.com/image/832/832/koad9jk0/t-shirt/q/v/t/xs-58667606-puma-original-imag2rwfnxfafbv9.jpeg?q=70",
+		"brand": "Puma",
+        "discount":"50%",
+
+		"size":  ["S","M","L","XL"],
+		"is_liked": false,
+		"price": "₹524"
+	}, {
+		"id": "18",
+        "title":"Solid Men Round Neck White T-Shirt",
+		"url": "https://rukminim1.flixcart.com/image/832/832/knknc7k0/t-shirt/u/4/i/m-58666802-puma-original-imag2822tyu6qba5.jpeg?q=70",
+		"brand": "Puma",
+        "discount":"50%",
+
+		"size":["M","L","XL"],
+		"is_liked": false,
+		"price": "₹319"
+	},
+     {
+		"id": "19",
+        "title":"x1DER Graphic Polo Solid Men Polo Neck White T-Shirt",
+
+        "url":"https://rukminim1.flixcart.com/image/832/832/l5h2xe80/t-shirt/g/h/i/m-53782802-puma-original-imagg5y9g9y5uzgr.jpeg?q=70",
+		"brand": "Puma",
+        "discount":"40%",
+
+		"size": ["S","M","L","XL"],
+		"is_liked": false,
+		"price": "₹619"
+	} ,{
+		"id": "20",
+        "title":"Solid Men Round Neck Black T-Shirt",
+
+        "url":"https://rukminim1.flixcart.com/image/832/832/knni7ww0/t-shirt/y/u/q/m-58666801-puma-original-imag2acks3a3rcfz.jpeg?q=70",
+		"brand": "Puma",
+        "discount":"30%",
+
+		"size":["L","XL"],
+		"is_liked": false,
+		"price": "₹449"
+	},
+    {
+        "id": "21",
+        "title":"Printed Men Hooded Neck Black T-Shirt",
+        "url": "https://rukminim1.flixcart.com/image/832/832/l2urv680/t-shirt/m/o/x/l-hood-spray-black-smartees-original-image3nnagm2cna8.jpeg?q=70",
+        "brand": "Smartees",
+        "discount":"30%",
+
+        "size": ["S","M","L","XL"],
+        "is_liked": false,
+        "price": "₹159"
+    }, {
+        "id": "22",
+        "title":"Color Block Men Round Neck White, Blue T-Shirt",
+        "url": "https://rukminim1.flixcart.com/image/832/832/xif0q/shopsy-t-shirt/r/o/v/l-shp-white-navy-stripe-fs-smartees-original-imagd3cdhrdgqf78-bb.jpeg?q=70",
+        "brand": "Smartees",
+        "discount":"50%",
+
+        "size": ["M","L","XL"] ,
+        "is_liked": false,
+        "price": "₹169"
+    }, {
+        "id": "23",
+        "title":"Printed Men Round Neck White T-Shirt",
+
+        "url": "https://rukminim1.flixcart.com/image/832/832/kuczmvk0/shopsy-t-shirt/7/j/f/l-mens-xoxo-white-smartees-original-imag7hb3xgfe86nh.jpeg?q=70",
+        "brand": "Smartees",
+        "discount":"20%",
+
+        "size":["M","L","XL"],
+        "is_liked": false,
+        "price": "₹143"
+    },
+     {
+        "id": "24",
+        "title":"Printed Men Round Neck Dark Blue T-Shirt",
+        "url":"https://rukminim1.flixcart.com/image/832/832/l4zxn680/t-shirt/a/7/c/m-st-colorleaf-navy-smartees-original-imagfs4paqzgkteh.jpeg?q=700",
+        "brand": "Smartees",
+        "discount":"10%",
+
+        "size": ["M","L","XL"],
+        "is_liked": false,
+        "price": "₹153"
+    } ,{
+        "id": "25",
+        "title":"Color Block Men Hooded Neck Gold, Black T-Shirt",
+
+        "url":"https://rukminim1.flixcart.com/image/832/832/kdoup3k0-0/t-shirt/t/9/e/l-bcn012h-blackmust-black-collection-original-imafujnjekvdr3gn.jpeg?q=70",
+        "brand": "Smartees",
+        "discount":"20%",
+
+        "size":["S","M","L","XL"],
+        "is_liked": false,
+        "price": "₹223"
+    },{
+        "id": "26",
+        "title":"Pack of 3 Printed Men Round Neck Black, Yellow T-Shirt",
+        "url": "https://rukminim1.flixcart.com/image/832/832/ksez24w0/t-shirt/l/2/z/l-cmb-5-smartees-original-imag5zmgdnax8x4p.jpeg?q=70",
+        "brand": "Smartees",
+        "discount":"40%",
+
+        "size": ["S","M"],
+        "is_liked": false,
+        "price": "₹159"
+    }, {
+        "id": "27",
+        "title":"Color Block Men Round Neck Maroon, Grey T-Shirt",
+        "url": "https://rukminim1.flixcart.com/image/832/832/l3os4280/t-shirt/7/1/9/xl-st-navy-maroon-grey-smartees-original-imageqgrukakzcb8.jpeg?q=70",
+        "brand": "Smartees",
+        "discount":"20%",
+
+        "size":  ["S","M","L"],
+        "is_liked": false,
+        "price": "₹579"
+    }, {
+        "id": "28",
+        "title":"Printed Men Round Neck Black T-Shirt",
+        "url": "https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/i/k/r/m-st-x-black-smartees-original-imaggghb5jmusebv.jpeg?q=70",
+        "brand": "Smartees",
+        "discount":"30%",
+
+        "size":["S","M","L","XL"],
+        "is_liked": false,
+        "price": "₹151"
+    },
+     {
+        "id": "29",
+        "title":"Solid Men White T-Shirt",
+        "url":"https://rukminim1.flixcart.com/image/832/832/l1pc3gw0/t-shirt/1/x/c/xl-drop-shoulder-solid-black-smartees-original-imagd7jkezmcmqgf.jpeg?q=70",
+        "brand": "Smartees",
+        "discount":"10%",
+
+        "size": ["S","M","L","XL"],
+        "is_liked": false,
+        "price": "₹167"
+    } ,{
+        "id": "30",
+        "title":"Color Block Men Polo Neck Yellow T-Shirt",
+
+        "url":"https://rukminim1.flixcart.com/image/832/832/l1pc3gw0/t-shirt/1/x/c/xl-drop-shoulder-solid-black-smartees-original-imagd7jkezmcmqgf.jpeg?q=70",
+        "brand": "Smartees",
+        "discount":"20%",
+
+        "size":["L","XL"],
+        "is_liked": false,
+        "price": "₹400"
+    },
+
+    {
+        "id": "31",
+        "title":"Solid Men Polo Neck Yellow T-Shirt",
+        "url": "https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/b/n/i/-original-imaghy3qr4qjxyqk.jpeg?q=70",
+        "brand": "U.S. POLO",
+        "discount":"20%",
+
+        "size": ["S","M","L"],
+        "is_liked": false,
+        "price": "₹2448"
+    }, {
+        "id": "32",
+        "title":"Solid Men Polo Neck Multicolor T-Shirt",
+
+        "url": "https://rukminim1.flixcart.com/image/832/832/l3xcr680/t-shirt/d/x/d/-original-imagexszytaxgngy.jpeg?q=70",
+        "brand": "U.S. POLO",
+        "discount":"40%",
+
+        "size": ["S"] ,
+        "is_liked": false,
+        "price": "₹2523"
+    }, {
+        "id": "33",
+        "title":"Striped Men Polo Neck Blue T-Shirt",
+
+        "url": "https://rukminim1.flixcart.com/image/832/832/l4bn5ow0/t-shirt/i/r/n/m-ustshs1030-u-s-polo-association-original-imagf8wtanxxygpb.jpeg?q=70",
+        "brand": "U.S. POLO",
+        "discount":"50%",
+
+        "size":["M","L"],
+        "is_liked": false,
+        "price": "₹1503"
+    },
+     {
+        "id": "34",
+        "title":"Solid Men Polo Neck Red T-Shirt",
+
+        "url":"https://rukminim1.flixcart.com/image/612/612/l3uhvgw0/t-shirt/s/e/m/m-ustshs1090-u-s-polo-association-original-imagevjggdwurdcq.jpeg?q=70",
+        "brand": "U.S. POLO",
+        "discount":"10%",
+
+        "size": ["L","XL"],
+        "is_liked": false,
+        "price": "₹2091"
+    } ,{
+        "id": "35",
+        "title":"Color Block Men Polo Neck Green T-Shirt",
+        "url":"https://rukminim1.flixcart.com/image/832/832/kv8fbm80/t-shirt/v/h/k/s-ustsh0559-u-s-polo-assn-original-imag86jehrgp2hzb.jpeg?q=70",
+        "brand": "U.S. POLO",
+        "discount":"20%",
+
+        "size":[ "M","L","XL"],
+        "is_liked": false,
+        "price": "₹153"
+    },{
+        "id": "36",
+        "title":"Striped Men Round Neck Dark Blue T-ShirtSolid Men Polo Neck Red T-Shirt",
+        "url": "https://rukminim1.flixcart.com/image/832/832/kohigsw0/t-shirt/g/e/j/xl-12907368-roadster-original-imag2xghkr52xhqg.jpeg?q=70",
+        "brand": "U.S. POLO",
+        "discount":"30%",
+
+        "size": ["S","M","L","XL"],
+        "is_liked": false,
+        "price": "₹2789"
+    }, {
+        "id": "37",
+        "title":"Solid Men Polo Neck Blue T-Shirt",
+        "url": "https://rukminim1.flixcart.com/image/832/832/jsc3ssw0/t-shirt/6/7/f/xl-2318579-roadster-original-imafdwhdxzska7qz.jpeg?q=70",
+        "brand": "U.S. POLO",
+        "discount":"10%",
+
+        "size":  ["S","M","L"],
+        "is_liked": false,
+        "price": "₹1079"
+    }, {
+        "id": "38",
+        "title":"Printed Men Round Neck Yellow T-Shirt",
+        "url": "https://rukminim1.flixcart.com/image/832/832/l3uhvgw0/t-shirt/3/g/h/m-ustshs1114-u-s-polo-association-original-imagevkepwrhruag.jpeg?q=70",
+        "brand": "U.S. POLO",
+        "discount":"50%",
+
+        "size":["S","M","L","XL"],
+        "is_liked": false,
+        "price": "₹2079"
+    },
+     {
+        "id": "39",
+        "title":"Solid Men Polo Neck Red T-Shirt",
+        "url":"https://rukminim1.flixcart.com/image/832/832/l3xcr680/t-shirt/0/f/h/-original-imagexszmm6spfae.jpeg?q=70",
+        "brand": "U.S. POLO",
+        "size": ["S","M","XL"],
+        "is_liked": false,
+        "price": "₹1667"
+    } ,{
+        "id": "40",
+        "title":"Striped Men Polo Neck Green T-Shirt",
+
+        "url":"https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/d/y/e/m-ustsh0603-u-s-polo-assn-original-imag8d5czn2rxbfk-bb.jpeg?q=70",
+        "brand": "U.S. POLO",
+        "discount":"10%",
+
+        "size":["S","L","XL"],
+        "is_liked": false,
+        "price": "₹2651"
+    },
+    {
+        "id": "41",
+        "title":"Color Block Men Round Neck Dark Green, White, Yellow T-Shirt",
+        "url": "https://rukminim1.flixcart.com/image/832/832/kmax8y80/t-shirt/e/t/x/l-12905294-roadster-original-imagf87hceh2gutn.jpeg?q=70",
+        "brand": "TRIPR",
+        "discount":"20%",
+
+        "size": ["S","M","L"],
+        "is_liked": false,
+        "price": "₹2464"
+    }, {
+        "id": "42",
+        "title":"Color Block Men Round Neck Multicolor T-Shirt",
+
+        "url": "https://rukminim1.flixcart.com/image/832/832/k66sh3k0/t-shirt/t/4/s/l-10307375-roadster-original-imafzhfjksbg4ufc.jpeg?q=70",
+        "brand": "TRIPR",
+        "discount":"30%",
+
+        "size": ["S","M","XL"] ,
+        "is_liked": false,
+        "price": "₹1591"
+    }, {
+        "id": "43",
+        "title":"Solid Men Mandarin Collar Black, Grey T-Shirt",
+
+        "url": "https://rukminim1.flixcart.com/image/832/832/kyrlifk0/t-shirt/0/u/s/l-tdgyblhenful-d37-tripr-original-imagax9x6pkgwwg9.jpeg?q=70",
+        "brand": "TRIPR",
+        "discount":"10%",
+        "size":["S","M","L","XL"],
+        "is_liked": false,
+        "price": "₹5311"
+    },
+     {
+        "id": "44",
+        "title":"Printed Men Round Neck Dark Green T-Shirt",
+
+        "url":"https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/x/3/k/s-tbgrrn-d45-tripr-original-imaggcfz59tgctza.jpeg?q=70",
+        "brand": "TRIPR",
+        "discount":"20%",
+
+        "size": ["S","M","L","XL"],
+        "is_liked": false,
+        "price": "₹1391"
+    } ,{
+        "id": "45",
+        "title":"Solid Men Mandarin Collar Maroon, Black T-Shirt",
+
+        "url":"https://rukminim1.flixcart.com/image/832/832/l0tweq80/t-shirt/o/p/s/xxl-tmrblhenful-d37-tripr-original-imagcj3azt32xvqf.jpeg?q=70",
+        "brand": "TRIPR",
+        "discount":"20%",
+
+        "size":[ "M","L","XL","XXL"],
+        "is_liked": false,
+        "price": "₹2023"
+    },{
+        "id": "46",
+        "title":"Printed Men Round Neck Dark Blue T-Shirt",
+        "url": "https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/3/y/l/xl-tnvrn-d45-tripr-original-imaggcfx9jtykgpp.jpeg?q=70",
+        "brand": "TRIPR",
+        "discount":"10%",
+
+        "size": ["M","L","XL"],
+        "is_liked": false,
+        "price": "₹2279"
+    }, {
+        "id": "47",
+        "title":"Solid Men Hooded Neck Black T-Shirt",
+        "url": "https://rukminim1.flixcart.com/image/832/832/kjhgzgw0-0/t-shirt/h/s/2/xxl-tblhdful-d10-tripr-original-imafzfk2cxynenfd.jpeg?q=70",
+        "brand": "TRIPR",
+        "discount":"10%",
+
+        "size":  ["S","M","L","XL"],
+        "is_liked": false,
+        "price": "₹1979"
+    }, {
+        "id": "48",
+        "title":"Solid Men Mandarin Collar Dark Green, Black T-Shirt",
+
+        "url": "https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/s/d/w/xxl-togrblhenful-d37-tripr-original-imaghb3fk65jgdrf.jpeg?q=70",
+        "brand": "TRIPR",
+        "discount":"10%",
+
+        "size":["S","M","L"],
+        "is_liked": false,
+        "price": "₹2859"
+    },
+     {
+        "id": "49",
+        "title":"Printed Men Hooded Neck Black T-Shirt",
+
+        "url":"https://rukminim1.flixcart.com/image/832/832/kl2mljk0/t-shirt/a/3/k/4xl-tblhdfulmask-lion-tripr-original-imagy9tcx7q25wym.jpeg?q=70",
+        "brand": "TRIPR",
+        "discount":"10%",
+
+        "size": ["S","XL"],
+        "is_liked": false,
+        "price": "₹1667"
+    } ,{
+        "id": "50",
+        "title":"Color Block Men Round Neck Black T-Shirt",
+
+        "url":"https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/c/p/l/xl-tblwtylrn-d39-tripr-original-imaghb4dng3xbzjw.jpeg?q=70",
+        "brand": "TRIPR",
+        "discount":"10%",
+
+        "size":["S","M","L","XL"],
+        "is_liked": false,
+        "price": "₹2311"
+    }
+
+]
+
+
+
+
+
+
+
+
+}
