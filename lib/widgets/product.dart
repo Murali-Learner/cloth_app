@@ -88,7 +88,7 @@ class _ProductState extends State<Product> {
                     Row(
                       children: [
                         Text(
-                          widget.product.price,
+                          "₹" + widget.product.price,
                           style: const TextStyle(
                             fontSize: 12,
                             color: Colors.black,

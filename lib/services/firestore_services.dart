@@ -1,7 +1,9 @@
+import 'dart:convert';
 import 'dart:developer';
 
 import 'package:cloth_app/models/product_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/services.dart';
 
 class FirestoreServices {
   FirebaseFirestore firestore = FirebaseFirestore.instance;
@@ -12,24 +14,7 @@ class FirestoreServices {
         await collection.get().then((value) => value.docs.map((e) {
               return ProductModel.fromMap(e.data());
             }).toList());
-
     return data;
-  }
-
-  getList() async {
-    var query = collection.orderBy('brand', descending: true);
-    List<QueryDocumentSnapshot<Map<String, dynamic>>> data =
-        await query.get().then((value) {
-      return value.docs;
-    });
-    log(data.map((e) => e.reference.get()).toString());
-// if (food.category != "") {
-//     query = query.where("category", isEqualTo: food.category);
-// }
-// if (food.name != "") {
-//     query = query.where("name", isEqualTo: food.name);
-// }
-// QuerySnapshot snapshot = await query.getDocuments();
   }
 
   Future<List<ProductModel>> getSizeFilterProducts(
@@ -66,7 +51,16 @@ class FirestoreServices {
 
 
 /*
+final String response =
+        await rootBundle.loadString('assets/products_data.json');
+    final data = await json.decode(response);
+    log(data["all_products"].runtimeType.toString());
 
+    for (var i = 0; i < data["all_products"].length; i++) {
+      // log(data["all_products"][i]["price"].toString());
+      prices.add(data["all_products"][i]["price"]);
+    }
+    // log(prices.to
    await firestore.collection("all_products").add({
     "id": id,
     'productName': title,

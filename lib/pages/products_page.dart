@@ -62,7 +62,12 @@ class _ProductsPageState extends State<ProductsPage> {
       color: Colors.white,
       child: Row(
         children: [
-          IconButton(onPressed: () {}, icon: const Icon(Icons.arrow_back)),
+          if (provider.filterProductsList.isNotEmpty)
+            IconButton(
+                onPressed: () {
+                  provider.init();
+                },
+                icon: const Icon(Icons.arrow_back)),
           buildTitle(provider),
           const Spacer(),
           IconButton(

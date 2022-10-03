@@ -16,6 +16,14 @@ class FiltersPage extends StatefulWidget {
 }
 
 class _FiltersPageState extends State<FiltersPage> {
+  late final ProductProvider productProvider;
+  @override
+  void initState() {
+    productProvider = Provider.of<ProductProvider>(context, listen: false);
+
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,45 +34,81 @@ class _FiltersPageState extends State<FiltersPage> {
           style: TextStyle(color: Colors.black),
         ),
         centerTitle: true,
+        actions: [
+          IconButton(
+              onPressed: () {
+                // productProvider.getFilteredList();
+                productProvider.onFilterSubmitEEvent();
+                Navigator.push(context, MaterialPageRoute(
+                  builder: (context) {
+                    return const ProductsPage();
+                  },
+                ));
+              },
+              icon: const Icon(
+                Icons.check,
+                color: Colors.black,
+              ))
+        ],
       ),
       body: SafeArea(
         left: true,
         right: true,
         child: Consumer<ProductProvider>(builder: (context, provider, _) {
           List<FilterModel> list = provider.filterModelList;
-          return SingleChildScrollView(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: [
-                ...List.generate(
-                  provider.filterModelList.length,
-                  (index) {
-                    return Column(
-                      children: [
-                        GestureDetector(
-                            onTap: () {
-                              provider.getFilteredList();
-                            },
-                            child: getFilterName(list[index].filterName)),
-                        Spacing.w15,
-                        getFIlterList(list[index]),
-                      ],
-                    );
-                  },
-                )
-              ],
-            ),
+          return Column(
+            children: [
+              Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  ...List.generate(
+                    provider.filterModelList.length,
+                    (index) {
+                      return Column(
+                        children: [
+                          getFilterName(list[index].filterName),
+                          Spacing.w15,
+                          getFIlterList(list[index]),
+                        ],
+                      );
+                    },
+                  ),
+                ],
+              ),
+              // Spacer(),
+              // InkWell(
+              //   onTap: () {},
+              //   child: Container(
+              //     width: MediaQuery.of(context).size.width,
+              //     height: 50,
+              //     decoration: BoxDecoration(
+              //       boxShadow: const [
+              //         BoxShadow(
+              //           color: Color(0x825182ff),
+              //           blurRadius: 18,
+              //           offset: Offset(0, 4),
+              //         ),
+              //       ],
+              //       color: const Color(0xff376aed),
+              //       borderRadius: BorderRadius.circular(10),
+              //     ),
+              //     alignment: Alignment.center,
+              //     child: const Text(
+              //       "Apply Filter",
+              //       style: TextStyle(
+              //         color: Colors.white,
+              //         fontSize: 15.0,
+              //         height: 1.42,
+              //         //    letterSpacing: 1.5
+              //       ),
+              //     ),
+              //   ),
+              // ),
+              // Spacing.h20,
+            ],
           );
         }),
       ),
-      bottomNavigationBar: ElevatedButton(
-          onPressed: () {
-            Navigator.push(context, MaterialPageRoute(builder: (ct) {
-              return const ProductsPage();
-            }));
-            (context);
-          },
-          child: Text('do')),
     );
   }
 

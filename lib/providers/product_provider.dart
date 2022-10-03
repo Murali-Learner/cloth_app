@@ -11,8 +11,11 @@ class ProductProvider extends ChangeNotifier {
   List<ProductModel> productsList = [];
   List<FilterModel> filterModelList = [];
   List<ProductModel> filterProductsList = [];
-  Set<String> individualFilters = {};
-  Set<Map<String, Set<String>>> filterList = {};
+
+  List<IndividualFilterModel> selectedBrands = [];
+  List<String> selectedDiscounts = [];
+  List<String?> selectedSizes = [];
+  List<String?> selectedPrices = [];
   bool _showLoading = true;
   bool _isSelected = false;
 
@@ -29,7 +32,7 @@ class ProductProvider extends ChangeNotifier {
   }
 
   init() async {
-    productsList = await services.getFirestoreData();
+    productsList = await getFilterProductList();
     filterModelList.clear();
     filterProductsList.clear();
     filterModelList = (getInitializeFilterItems());
@@ -45,11 +48,93 @@ class ProductProvider extends ChangeNotifier {
         individualFilterName: individualFilterName, filterName: filterName);
 
     notifyListeners();
-    log(filterList.toString());
-    // getFilteredList(
-    //     filterName: filterName, individualFilterNames: individualFilterNames);
+  }
 
-    log("--$individualFilterName-$filterName");
+  Future<List<ProductModel>> getFilterProductList() async {
+    List<ProductModel> getProdList = await services.getFirestoreData();
+    // log("selectedBrands:$selectedBrands");
+    if (selectedBrands.isNotEmpty) {
+      List<ProductModel> _list =
+          getAppLiedFilterList(selectedBrands, getProdList);
+      // print('---$_list');
+      if (_list.isNotEmpty) {
+        getProdList = _list;
+      }
+    }
+    return getProdList;
+  }
+
+  getAppLiedFilterList(
+    List<IndividualFilterModel> selectedFilters,
+    List<ProductModel> originalData,
+  ) {
+    List<ProductModel> productModelList = [];
+    productModelList.clear();
+    for (var individualFilterModel in selectedFilters) {
+      log("individualFilterName: ${individualFilterModel.individualFilterName}");
+      for (var product in originalData) {
+        if (product.brand == individualFilterModel.individualFilterName) {
+          log("product: ${product.brand}");
+        }
+      }
+    }
+    // log("selectedFilter: $selectedFilter");
+
+    // for (var individualFilterModel in selectedFilters) {
+    //   log("individualFilterName: ${individualFilterModel.individualFilterName}");
+    //   for (var i = 0; i < originalData.length; i++) {
+    //     log("==${originalData.length}");
+    //     productModelList.clear();
+    //     if (originalData[i].brand.toLowerCase() ==
+    //         individualFilterModel.individualFilterName.toLowerCase()) {
+    //       log("brand: ${originalData[i].brand.toLowerCase()} filter: ${individualFilterModel.individualFilterName.toLowerCase()}");
+
+    //       productModelList.add(originalData[i]);
+    //       notifyListeners();
+    //     }
+    // }
+    // productModelList = originalData.where((product) {
+    //   // log("filter: ${filter.individualFilterName.toLowerCase()} brand: ${product.brand.toLowerCase()}");
+    //   return product.brand.toLowerCase() ==
+    //       filter.individualFilterName.toLowerCase();
+    // }).map((e) {
+    //   log(e.brand);
+    //   return e;
+    // }).toList();
+
+    // log("productModelList: ${productModelList.toList()}");
+    // if (isSelected) {
+    //   // productModelList.add(filter);
+    // }
+    // }
+    log("productModelList: ${productModelList.length}");
+    return productModelList;
+  }
+
+  onFilterSubmitEEvent() {
+    // TODO: get individual fileter items
+
+    List<IndividualFilterModel> brandFilterModel = filterModelList
+        .firstWhere((element) => element.filterName == "brand")
+        .filterItems;
+    List<IndividualFilterModel> priceFilterModel = filterModelList
+        .firstWhere((element) => element.filterName == "size")
+        .filterItems;
+    List<IndividualFilterModel> discountFilterModel = filterModelList
+        .firstWhere((element) => element.filterName == "discount")
+        .filterItems;
+    List<IndividualFilterModel> sizeFilterModel = filterModelList
+        .firstWhere((element) => element.filterName == "price")
+        .filterItems;
+
+    selectedBrands.clear();
+    for (var item in brandFilterModel) {
+      if (item.isSelected) {
+        selectedBrands.add(item);
+      }
+    }
+    log("selectedBrands:$selectedBrands");
+    notifyListeners();
   }
 
   List<FilterModel> getInitializeFilterItems() {
@@ -91,69 +176,11 @@ class ProductProvider extends ChangeNotifier {
     }
   }
 
-  List<Map<String, Set<String>>> lists = [
-    {
-      "discount": {"10%", "20%"},
-    },
-    {
-      "brand": {"Roadstar", "Tripr", "Smartees"},
-    },
-    // {
-    //   "size": {"XL"},
-    // }
-  ];
   getFilteredList() async {
-    services.getList();
-    // List<ProductModel> sizeFIlter = [];
-    // List<ProductModel> normaFilter = [];
-    // showLoading = true;
-    // for (int i = 0; i < lists.length; i++) {
-    //   for (int j = 0; j < lists[i].keys.length; j++) {
-    //     if (lists[i].keys.elementAt(j) == "size") {
-    //       sizeFIlter = await services
-    //           .getSizeFilterProducts(lists[i].values.elementAt(j).toList());
-    //     } else {
-    //       normaFilter = await services.getFilterProducts(
-    //           lists[i].keys.elementAt(j),
-    //           lists[i].values.elementAt(j).toList());
-    //     }
-    //   }
+    showLoading = true;
 
-    //   //   // log(filterProductsList.toString());
-    //   showLoading = false;
-    // }
-    // filterProductsList = normaFilter + sizeFIlter;
+    showLoading = false;
 
-    // notifyListeners();
-
-    // log("-${sizeFIlter.length}-${normaFilter.length}");
+    notifyListeners();
   }
 }
-/*
-
-// List wallpaperOpt = [
-//     {"key": "HOME SCREEN", "value": 1},
-//     {"key": "LOCK SCREEN", "value": 2},
-//     {"key": "BOTH SCREEN", "value": 3},
-//   ];
- // Map<bool, ProductModel> _wishListProducts = {};
-  // List<Map<bool, ProductModel>> _wishList = [];
-  // List<Map<bool, ProductModel>> get wishList => _wishList;
-  // set wishList(List<Map<bool, ProductModel>> value) {
-  //   _wishList = value;
-  //   notifyListeners();
-  // }
-  // Map<bool, ProductModel> get wishListProducts => _wishListProducts;
-  // set wishListProducts(Map<bool, ProductModel> value) {
-  //   _wishListProducts = value;
-  //   notifyListeners();
-  // }
-  // addedToWishList(bool isWishListed, ProductModel product) {
-  //   isWishListed = !isWishListed;
-  //   // wishList.add(product);
-  //   wishListProducts.addAll({
-  //   });
-  //   notifyListeners();
-  //   log(isWishListed.toString());
-  // }
- */
